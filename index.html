@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atheer</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+      .link-row { cursor: pointer; transition: opacity 0.15s; }
+      .link-row:hover { opacity: 0.7; }
+      .nav-item { transition: background-color 0.2s ease, border-radius 0.2s ease; }
+      :root { --nav-hover-bg: #DBF5F4A6; }
+      .nav-item:not(.nav-active):hover { background-color: var(--nav-hover-bg) !important; border-radius: 8px !important; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

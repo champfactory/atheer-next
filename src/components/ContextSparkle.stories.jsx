@@ -8,6 +8,6 @@ export default {
   },
 };
 
-export const Default = { args: { color: '#FF0000' } };
+export const Default = { args: { color: '#FF2E2E' } };
 export const Blue = { args: { color: '#48B2FF' } };
 export const Green = { args: { color: '#176331' } };
